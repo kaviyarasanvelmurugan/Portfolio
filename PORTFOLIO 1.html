@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kaviyarasan V | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+body {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fb;
+}
+
+/* Navbar */
+.navbar {
+  background: #0f172a;
+}
+
+/* Hero with Coding Background */
+.hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)),
+    url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 span {
+  color: #facc15;
+}
+
+/* Sections */
+section {
+  padding: 80px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  font-weight: bold;
+  color: #1e293b;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Icons */
+.skill-icon {
+  font-size: 40px;
+  color: #6f42c1;
+}
+
+/* Footer */
+footer {
+  background: #0f172a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Kaviyarasan</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Activities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container">
+    <h1 class="display-4 fw-bold">
+      Hi, I'm <span>Kaviyarasan V</span>
+    </h1>
+    <p class="lead mt-3">
+      Computer Science Engineering Student | Aspiring Software Engineer
+    </p>
+    <a href="#about" class="btn btn-warning btn-lg mt-4">Explore More</a>
+  </div>
+</section>
+
+<!-- ABOUT (FIRST HEADING) -->
+<section id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2>About</h2>
+    </div>
+    <p class="text-center fs-5">
+      Second-year Computer Science Engineering (CSE) student with a strong passion
+      for coding and problem-solving. Proficient in Python and currently learning Java.
+      Actively participating in coding competitions and eager to explore software
+      development, algorithms, and emerging technologies.
+    </p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2>Educational Qualification</h2>
+    </div>
+
+    <div class="card p-4 mb-3">
+      <h5>B.E. Computer Science and Engineering</h5>
+      <p>Bannari Amman Institute of Technology, Sathy<br>
+      2024 – 2028 (Pursuing) | CGPA: 6.11</p>
+    </div>
+
+    <div class="card p-4 mb-3">
+      <h5>Higher Secondary Certificate (HSC)</h5>
+      <p>Devi Matriculation Higher Secondary School, Palani<br>
+      2024 | 73.5%</p>
+    </div>
+
+    <div class="card p-4">
+      <h5>Secondary School Leaving Certificate (SSLC)</h5>
+      <p>Devi Matriculation Higher Secondary School, Palani<br>
+      2022 | 76.2%</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-title">
+      <h2>Technical Skills</h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <i class="bi bi-code-slash skill-icon"></i>
+          <h5 class="mt-3">Programming</h5>
+          <p>Python, Java, C</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <i class="bi bi-laptop skill-icon"></i>
+          <h5 class="mt-3">Frontend</h5>
+          <p>HTML, CSS, Bootstrap</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <i class="bi bi-database skill-icon"></i>
+          <h5 class="mt-3">Database & Backend</h5>
+          <p>MySQL, Basics of Machine Learning</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="card p-4">
+      <h5>Apple Calculator Replica</h5>
+      <p>
+        Developed a fully responsive Apple Calculator replica using HTML, CSS,
+        and JavaScript with pixel-perfect UI, smooth interactions, and modern
+        layout techniques like Flexbox and Grid.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-title">
+      <h2>Certifications</h2>
+    </div>
+
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Infosys – Basics of python</li>
+      <li class="list-group-item">Infosys – Introduction to Python</li>
+      <li class="list-group-item">NPTEL – Wildlife and Ecology</li>
+      <li class="list-group-item">Oracle – Cloud Infrastructure</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section id="achievements" class="bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2>Extracurricular Activities</h2>
+    </div>
+
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">📸 Photo Hub Member – Developed teamwork and leadership skills</li>
+      <li class="list-group-item">🥋 National-Level Judo Player – Represented Tamil Nadu</li>
+      <li class="list-group-item">🏀 District-Level Basketball Player</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container text-center">
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <p>📞 +91 9698848381</p>
+    <p>✉️ kaviyarasanv2306@gmail.com</p>
+    <p>
+      🔗 <a href="https://www.linkedin.com/in/kaviyasan23" target="_blank">
+      www.linkedin.com/in/kaviyasan23
+      </a>
+    </p>
+    <p>📍 Palani, Tamil Nadu</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Kaviyarasan V | Portfolio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
